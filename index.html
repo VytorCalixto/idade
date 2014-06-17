@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="ageApp">
+    <head>
+        <title>Quantos anos Vytor Calixto tem?</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+        <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+        <link href="style.css" rel="stylesheet">
+
+        <script src="js/libs/angular.js/angular.js"></script>
+        <script src="js/angular-count-to.min.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body class="page" ng-controller="AgeCtrl">
+        <div>
+            <div class="center-div">
+                <img ng-src="{{profileSrc}}" class="profile-picture pure-img">
+            </div>
+            <div class="center-div">
+                <h2>Quantos anos Vytor Calixto tem?</h2>
+                <h1 class="age" count-to="{{getAge()}}" value="0" duration="2.5"></h1>
+            </div>
+        </div>
+    </body>
+</html>

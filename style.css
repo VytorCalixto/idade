@@ -1,0 +1,33 @@
+.center-div{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center-div h2{
+    color: #fff;
+    font-family: 'Coming Soon', cursive;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: #fff;
+    height: 114px;
+    width: 114px;
+}
+
+.page{
+    background: #007DCF;
+    background-image: url(24.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.age{
+    color: #fff;
+    font-size: 500%;
+    font-weight: bolder;
+}
